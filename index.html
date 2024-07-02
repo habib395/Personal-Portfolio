@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="shortcut icon" href="images/logo.jpg.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header section is start -->
+    <div id="header">
+        <div class="container">
+           <nav>
+                <img src="images/logo3.jpg.png" class="logo">
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#secvices">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p><b><span>Web Designer</span></b></p>
+            <h2>I'm <span>Habibur</span> <br> from Bangladesh</h2>
+            </div>
+        </div>
+    </div>
+    <!-- header section is close -->
+    <!-- about section start -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/userc.jpg.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><i style="font-size: 12px;">I am Md.Habibur Rahman Sujon. I am from Bangladesh.
+                        special for own skill development by many course. I would like to develop myself by invest on me.
+                        This is my first webpage whom i share my experience, knowledge, skills etc....</i></p>
+                    <div class="tab-title">
+                            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                            <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Desinger</span><br>Basic Webpage Design</li>
+                                <li><span>Computer Cirtificate</span><br>Certified By DYD in Rajshahi</li>
+                                <li><span>Web Development</span><br>Basic Webpage Design & Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022 - Current</span><br>Web Teaining at HR Tech</li>
+                                <li><span>2020 - 2022</span><br>Team lead at TTC, Rajshahi</li>
+                                <li><span>2017 - 2020</span><br>Intern at Royel Tec in Canada</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>M.Sc from DU</li>
+                                <li><span>2021</span><br>B.Sc from Rajshahi</li>
+                                <li><span>2017</span><br>HSC from Gazipur</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+<!-- about section end -->
+<!-- services section start -->
+<div id="secvices">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-droplet"></i>
+                <h4>Web Design</h4>
+                <p>i am good at web Design. I create many webpage templete which is available in some paid website.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h4>Web Development</h4>
+                <p>i am good at web Development. I create many webpage templete which is available for free.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-blog"></i>
+                <h4>Personal Blog</h4>
+                <p>i am good at making personal Blogs. I create many webpage templete which is available in some paid website. </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- services section end -->
+<!-- Portfolio section start -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg.png" alt="">
+                <div class="layer">
+                    <h3> Basic Design</h3>
+                    <p>This is an effective website about blog</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpg.png" alt="">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p>This is an effective website about blog</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg.png" alt="">
+                <div class="layer">
+                    <h3> Personal blog</h3>
+                    <p>This is an effective website about blog</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- Portfolio section end -->
+<!-- Contact section start -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"><h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>md.habiburrahmanjwd@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>01742923499</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/profile.php?id=100074779133725&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href=" " class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Enter Name" required>
+                    <input type="email" name="Email" placeholder="Enter Email" required>
+                    <textarea name="Message" rows="5" placeholder="Enter Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- footer section start-->
+     <div class="copyright">
+        <p>Copyright&copy;Habibur.Made with <span>&nbsp;</span><i class="fa-solid fa-dove"></i><span>&nbsp;</span> Easy Task</p>
+     </div>
+  <!-- footer section end -->
+</div>
+<!-- contact section end -->
+<!-- here we can add javaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
